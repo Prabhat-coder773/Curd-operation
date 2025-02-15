@@ -48,7 +48,7 @@ const AdminServices = () => {
   // Handle editing a service
   const handleEdit = (service) => {
     setFormData(service); // Populate form with the selected service
-    setEditId(service.accno); // Track the service ID (using accno since ID is missing)
+    setEditId(service.accno); // Track the service ID (using accno since ID is missing) 
     setIsEditing(true); // Enter edit mode
     setIsDeleting(false); // Ensure we are not in delete mode
   };
